@@ -1,6 +1,6 @@
 complete <- function(directory, id = 1:332){
     #set working directory and append directory in which data is found to it
-    wd <- setwd("E:/Users/JeffPat390039/Documents/Machine_Learning/R/Data_Science/2_R_Programming/Programming_Assignment1")
+    wd <- setwd("E:/Users/JeffPat390039/Documents/Machine_Learning/R/Data_Science/2_R_Programming/Programming_Assignment3/PA3-repo")
     wd1 <- paste(wd,"/",directory, sep = "", collapse = NULL)
     
     # Read in data with path name to file
