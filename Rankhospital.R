@@ -1,6 +1,6 @@
 rankhospital <- function (state, outcome, num = "best") {
     #set working directory and append directory in which data is found to it
-    wd <- setwd("E:/Users/JeffPat390039/Documents/Machine_Learning/R/Data_Science/2_R_Programming/Programming_Assignment3/rprog-data-ProgAssignment3-data")
+    wd <- setwd("E:/Users/JeffPat390039/Documents/Machine_Learning/R/Data_Science/2_R_Programming/Programming_Assignment3/PA3-repo/rprog-data-ProgAssignment3-data")
     
     # read outcome data
     read.outcome <- read.csv("outcome-of-care-measures.csv", colClasses = "character")
